@@ -1,0 +1,51 @@
+html {
+    font-size: 62.5%;
+    /* Reset para REMS - 62.5% = 10 px de 16px */
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    background-color: rgb(24, 24, 24);
+}
+
+.contenedor {
+    max-width: 120rem;
+    /* =1200px */
+    margin: 0 auto;
+    /* La disposicion es como las agujas del reloj, a las 12, 15, 18, 21, 00*/
+}
+
+.site-header-inicio {
+    height: 50vh;
+    background: url(../img/000webhosting-Encabezado.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 60rem;
+}
+
+
+/* NAVEGACION */
+
+.navegacion a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.8rem;
+    /* =18px */
+    margin-right: 2rem;
+}
+
+.navegacion a:hover {
+    color: #00b1b1;
+}
+
+.contenedor_main {
+    height: 50vh;
+    background-color: #005e7a;
+}
+
+.contenedor_footer {
+    height: 20vh;
+    background-color: #02455a;
+}
